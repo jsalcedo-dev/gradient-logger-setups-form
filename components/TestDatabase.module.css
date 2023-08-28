@@ -1,0 +1,47 @@
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    /* Text color */
+    padding: 15px 32px;
+    /* Padding inside the button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* Font size */
+    margin: 4px 2px;
+    cursor: pointer;
+    /* Cursor style on hover */
+    border-radius: 8px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth transition effect */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    width: 100%;
+    /* Width of the divider line */
+    height: 1px;
+    /* Height of the thin horizontal divider line */
+    background-color: #000;
+    /* Color of the divider line */
+}
+
+.title {
+    font-size: 20px;
+    /* Font size */
+    font-weight: bold;
+    /* Font weight */
+    margin-bottom: 10px;
+    /* Bottom margin */
+    text-align: center;
+    /* Center text */
+
+}
